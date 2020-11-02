@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/padding"
+    android:paddingRight="@dimen/padding"
+    android:paddingBottom="@dimen/padding"
+    android:paddingLeft="@dimen/padding"
+    android:background="@color/fondo"
+    tools:context=".ConfirmarDatos">
+
+    <TextView
+        android:id="@+id/tvconfirmar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin"
+        android:text="@string/titulo_confirmar"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/tamano_letra_confirmar" />
+
+    <TextView
+        android:id="@+id/tvNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin"
+        android:text="@string/titulo_confirmar"
+        android:textStyle="bold"
+        android:textSize="@dimen/tamano_letra"
+        android:layout_below="@id/tvconfirmar"/>
+
+    <LinearLayout
+        android:id="@+id/llUno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvNombre"
+        android:layout_marginBottom="@dimen/margin"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fecha de Nacimiento:"
+            android:textStyle="bold"
+            android:textSize="@dimen/tamano_letra" />
+
+        <TextView
+            android:id="@+id/tvFechaNac"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="@string/titulo_confirmar"
+            android:textSize="@dimen/tamano_letra" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llDos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/llUno"
+        android:layout_marginBottom="@dimen/margin"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tel:"
+            android:textStyle="bold"
+            android:textSize="@dimen/tamano_letra" />
+
+        <TextView
+            android:id="@+id/tvTel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="@string/titulo_confirmar"
+            android:textSize="@dimen/tamano_letra" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llTres"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/llDos"
+        android:layout_marginBottom="@dimen/margin"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email:"
+            android:textStyle="bold"
+            android:textSize="@dimen/tamano_letra" />
+
+        <TextView
+            android:id="@+id/tvEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="@string/titulo_confirmar"
+            android:textSize="@dimen/tamano_letra" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llCuatro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/llTres"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Descripción:"
+            android:textStyle="bold"
+            android:textSize="@dimen/tamano_letra" />
+
+        <TextView
+            android:id="@+id/tvDescripcion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="@string/titulo_confirmar"
+            android:textSize="@dimen/tamano_letra" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnEditar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/RaisedBtn"
+        android:text="@string/btn_editar_texto"
+        android:layout_marginBottom="@dimen/margin"
+        android:layout_below="@id/llCuatro"></Button>
+
+</RelativeLayout>

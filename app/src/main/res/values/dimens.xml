@@ -1,0 +1,8 @@
+<resources>
+    <dimen name="padding">16dp</dimen>
+    <dimen name="margin">10dp</dimen>
+    <dimen name="tamano_letra">18dp</dimen>
+    <dimen name="alto_descripcion">70dp</dimen>
+
+    <dimen name="tamano_letra_confirmar">25dp</dimen>
+</resources>

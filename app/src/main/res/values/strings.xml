@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Agregar Cliente</string>
+
+    <string name="placeholder_nombre">Nombre Completo</string>
+    <string name="placeholder_telefono">Télefono</string>
+    <string name="placeholder_email">Email</string>
+    <string name="placeholder_descripcion">Descripción del Contacto</string>
+
+    <string name="btn_siguiente">Siguiente</string>
+    <string name="btn_editar_texto">Editar Texto</string>
+
+    <string name="pnombre">pnombre</string>
+    <string name="pfecha">pfecha</string>
+    <string name="ptelefono">ptelefono</string>
+    <string name="pemail">pemail</string>
+    <string name="pdescripcion">pdescripcion</string>
+
+    <string name="titulo_confirmar">Confirmar Datos</string>
+</resources>
